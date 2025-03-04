@@ -4,6 +4,8 @@ import "./globals.css";
 import { locales, defaultLocale, type Locale } from "../../i18n";
 import Providers from "./providers";
 import Head from "next/head";
+import ClientLayout from "@/components/ClientLayout"; // Importamos el nuevo componente
+import { Toaster } from "react-hot-toast"; // Importamos el sistema de notificaciones
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +26,6 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
- 
   const locale = locales.includes(params.locale as Locale)
     ? (params.locale as Locale)
     : defaultLocale;
@@ -33,12 +34,17 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className="dark">
-       <Head>
-        {/* Aquí solo indicamos el nombre del archivo sin public/ */}
+      <Head>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <body className={inter.className}>
-        <Providers locale={locale} messages={messages}>{children}</Providers>
+        <Providers locale={locale} messages={messages}>
+          {/* 📌 Agregamos Toaster para manejar las notificaciones en toda la app */}
+          <Toaster position="top-right" reverseOrder={false} />
+
+          {/* Pasamos children a ClientLayout, donde se manejará el modal */}
+          <ClientLayout>{children}</ClientLayout>
+        </Providers>
       </body>
     </html>
   );
