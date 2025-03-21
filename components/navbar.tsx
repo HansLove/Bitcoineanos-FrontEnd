@@ -20,14 +20,14 @@ export function Navbar({ openModal }: NavbarProps) {
   const currentLocale = pathname.split("/")[1];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
+  const newPath = pathname.replace(/^\/(en|es)/, "");
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Link href={`/${currentLocale}/`}>
-              <Image src="/logo.png" width={150} height={100} alt="logo" />
+            <Image src="/logo.png" width={150} height={50} alt="logo" className="h-auto" />
             </Link>
           </div>
 
@@ -52,8 +52,10 @@ export function Navbar({ openModal }: NavbarProps) {
             <Button className="bg-orange-500 hover:bg-orange-600 text-white" onClick={openModal}>
               {t("mensaje")}
             </Button>
-
-            <Link href={currentLocale === "en" ? "/es" : "/en"} className="ml-auto border p-2 rounded font-emoji">
+            <Link
+              href={`/${currentLocale === "en" ? "es" : "en"}${newPath}`}
+              className="ml-auto border p-2 rounded font-emoji"
+            >
               {currentLocale === "en" ? "🇲🇽 Español" : "🇺🇸 English"}
             </Link>
           </div>

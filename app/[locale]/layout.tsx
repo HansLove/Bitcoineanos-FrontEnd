@@ -9,6 +9,7 @@ import { Toaster } from "react-hot-toast"; // Importamos el sistema de notificac
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -44,7 +45,9 @@ export default async function RootLayout({
 
           {/* Pasamos children a ClientLayout, donde se manejará el modal */}
           <ClientLayout>{children}</ClientLayout>
+          
         </Providers>
+        <script src="https://www.cryptohopper.com/widgets/js/script"></script>
       </body>
     </html>
   );

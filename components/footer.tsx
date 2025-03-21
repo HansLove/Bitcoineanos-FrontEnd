@@ -9,7 +9,7 @@ export function Footer() {
   const t = useTranslations(); 
 
   return (
-    <footer className="bg-black text-gray-300 pb-10 md:mx-0 mx-4">
+    <footer className="mt-10 text-gray-300 pb-10 md:mx-0 mx-4">
       <div className="container mx-auto px-8 py-10 bg-gradient-to-t from-orange-950 via-orange-800 to-orange-600 rounded-3xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Useful Links */}
