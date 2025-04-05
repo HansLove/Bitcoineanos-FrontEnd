@@ -33,6 +33,9 @@ export function Navbar({ openModal }: NavbarProps) {
 
           {/* Menú Desktop */}
           <div className="hidden md:flex items-center gap-8">
+            <Link href={`/${currentLocale}/profile`} className="text-gray-300 hover:text-white transition-colors">
+              Profile
+            </Link>
             <Link href={`/${currentLocale}/#about`} className="text-gray-300 hover:text-white transition-colors">
               {t("#about")}
             </Link>
