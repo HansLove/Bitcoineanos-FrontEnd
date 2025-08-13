@@ -14,7 +14,7 @@ function Rank() {
 
 
   <div className="outlinePage">
-    <img src='/silverhands.png' className='absolute h-full right-0'/>
+    {/* <img src='/silverhands.png' className='absolute h-full right-0'/> */}
     <p className="ranking_number ml-4">3<span className="ml-2 ranking_word">yrs</span></p>
     <div className="splitLine"></div>
    
