@@ -49,13 +49,14 @@ export function Hero() {
         </Zoom>
         <div className="flex flex-wrap justify-center gap-4">
             <Slide triggerOnce cascade delay={300} direction="up">
-            <Link href={`https://t.me/+DBo_c8QjRDcwNDYx`} target="_blank">
+            <Link href="#lead-funnel">
           <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8">
           {t("buttonhero1")}
           </Button></Link>
+          <Link href={`https://t.me/+DBo_c8QjRDcwNDYx`} target="_blank">
           <Button variant="outline" className="border-gray-600 text-white hover:bg-white/10 px-8">
           {t("buttonhero2")}
-          </Button>
+          </Button></Link>
           </Slide>
         </div>
       </div>

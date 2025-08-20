@@ -47,5 +47,15 @@
   "fm3": "Questions?",
   "funete": "Join our community on Discord",
   "funirme": "Join",
-  "copy": "Copyright © 2024 Bitcoineanos. All rights reserved."
+  "copy": "Copyright © 2024 Bitcoineanos. All rights reserved.",
+  "stats_title": "Our Community in Numbers",
+  "stats_subtitle": "The Power of Bitcoiners",
+  "stats_description": "Our community grows day by day, united by common values and the vision of a decentralized and free financial future.",
+  "cta_title": "What are you waiting for?",
+  "cta_subtitle": "The Bitcoin revolution doesn't stop. Join now and be part of the history that is changing the financial world forever.",
+  "funnel_title": "Ready to be a Bitcoiner?",
+  "funnel_subtitle": "Join our community where we are united by proof of work, savings, consensus, consistency, intensity and internal revolution.",
+  "funnel_form_title": "Register your interest",
+  "funnel_success_title": "Welcome to the Bitcoineanos Community!",
+  "funnel_success_message": "We have sent you a confirmation email. You will soon receive access to our exclusive community."
 }
