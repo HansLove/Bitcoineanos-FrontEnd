@@ -7,6 +7,7 @@ import { StatsSection } from "@/components/stats-section"
 import { LeadFunnel } from "@/components/lead-funnel"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import { Specialists } from "@/components/specialists"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       
       <Hero />
       <About/>
+      <Specialists />
       <CardsSection />
       <StatsSection />
       <Testimonial/>

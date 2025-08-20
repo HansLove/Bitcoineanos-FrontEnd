@@ -2,6 +2,7 @@
     "navbar": {
       "/": "Inicio",
       "#about": "Somos Bitcoineanos",
+      "#specialists": "Especialistas",
       "#values": "Valores",
       "#community": "Comunidad",
       "language": "Idioma",
@@ -58,5 +59,17 @@
     "funnel_form_title": "Registra tu interés",
     "funnel_success_title": "¡Bienvenido a la Comunidad Bitcoineanos!",
     "funnel_success_message": "Te hemos enviado un email de confirmación. Pronto recibirás acceso a nuestra comunidad exclusiva."
+    ,
+    "specialists_title": "Expertos a tu alcance",
+    "specialists_subtitle": "Si quieres profundizar, tenemos especialistas listos para guiarte en lo técnico, lo humano y lo estratégico.",
+    "specialists_cta": "Quiero hablar",
+    "specialists_mining_title": "Minería de Bitcoin",
+    "specialists_mining_desc": "Economía, equipos, ROI, operación segura y estrategia energética.",
+    "specialists_scarcity_title": "Escasez Digital",
+    "specialists_scarcity_desc": "Por qué 21 millones importan, emisión, halving y modelos de valor.",
+    "specialists_mindset_title": "Mentalidad Bitcoineana",
+    "specialists_mindset_desc": "Disciplina, ahorro, skin in the game y hábitos para construir a largo plazo.",
+    "specialists_mentorship_title": "Mentoría 1:1",
+    "specialists_mentorship_desc": "Acompañamiento personalizado para tu camino en Bitcoin, negocio o carrera."
   }
   

@@ -33,16 +33,16 @@ export function Navbar({ openModal }: NavbarProps) {
 
           {/* Menú Desktop */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href={`/${currentLocale}/profile`} className="text-gray-300 hover:text-white transition-colors">
-              Profile
-            </Link>
             <Link href={`/${currentLocale}/#about`} className="text-gray-300 hover:text-white transition-colors">
               {t("#about")}
             </Link>
-            <Link href="/#values" className="text-gray-300 hover:text-white transition-colors">
+            <Link href={`/${currentLocale}/#specialists`} className="text-gray-300 hover:text-white transition-colors">
+              {t("#specialists")}
+            </Link>
+            <Link href={`/${currentLocale}/#values`} className="text-gray-300 hover:text-white transition-colors">
               {t("#values")}
             </Link>
-            <Link href="/#community" className="text-gray-300 hover:text-white transition-colors">
+            <Link href={`/${currentLocale}/#community`} className="text-gray-300 hover:text-white transition-colors">
               {t("#community")}
             </Link>
           </div>
@@ -75,13 +75,16 @@ export function Navbar({ openModal }: NavbarProps) {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <Link href="/#about" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
+              <Link href={`/${currentLocale}/#about`} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
                 {t("#about")}
               </Link>
-              <Link href="/#values" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
+              <Link href={`/${currentLocale}/#specialists`} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
+                {t("#specialists")}
+              </Link>
+              <Link href={`/${currentLocale}/#values`} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
                 {t("#values")}
               </Link>
-              <Link href="/#community" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
+              <Link href={`/${currentLocale}/#community`} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">
                 {t("#community")}
               </Link>
             </div>
