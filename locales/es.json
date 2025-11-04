@@ -70,6 +70,65 @@
     "specialists_mindset_title": "Mentalidad Bitcoineana",
     "specialists_mindset_desc": "Disciplina, ahorro, skin in the game y hábitos para construir a largo plazo.",
     "specialists_mentorship_title": "Mentoría 1:1",
-    "specialists_mentorship_desc": "Acompañamiento personalizado para tu camino en Bitcoin, negocio o carrera."
+    "specialists_mentorship_desc": "Acompañamiento personalizado para tu camino en Bitcoin, negocio o carrera.",
+    "manifesto": {
+      "title": "Manifiesto de la Era del Consenso",
+      "subtitle": "Para nuevos miembros de la comunidad Bitcoineanos",
+      "badge": "La Era del Consenso",
+      "fin": {
+        "title": "I. El fin de las viejas certezas",
+        "content": "Durante siglos, los hombres han organizado su mundo bajo estructuras que hoy se desmoronan. Reinos, partidos, ideologías y patrias prometieron justicia y prosperidad, pero terminaron reproduciendo el mismo ciclo de poder, corrupción y olvido. El progreso material no bastó para llenar el vacío moral, y las promesas de libertad se convirtieron en sistemas de vigilancia y dependencia. Así llegamos al siglo XXI: un mundo saturado de información, pero hambriento de verdad. En medio de ese ruido, nació una nueva señal. Bitcoin fue su nombre."
+      },
+      "nacimiento": {
+        "title": "II. El nacimiento del orden incorruptible",
+        "content": "Bitcoin no es solo una moneda ni un sistema financiero alternativo: es el primer acuerdo humano que no necesita de un amo para sostenerse. Por primera vez, la confianza dejó de ser vertical para convertirse en horizontal. La verdad dejó de depender de la palabra de los hombres y pasó a descansar en la inmutabilidad del código. El consenso se volvió la nueva forma de soberanía."
+      },
+      "dios": {
+        "title": "III. Dios, Familia, Bitcoin",
+        "content": "De ese cuestionamiento nace La Era del Consenso, una corriente que no niega lo sagrado ni lo humano, sino que los reconcilia.",
+        "pillar1": {
+          "title": "Dios",
+          "desc": "Representa el principio y el orden natural del universo. Creemos que la energía, la razón y la conciencia son expresiones de una voluntad divina que se manifiesta a través de la creación humana."
+        },
+        "pillar2": {
+          "title": "La Familia",
+          "desc": "Es la célula de ese orden. Es donde aprendemos la confianza, la responsabilidad y el amor que da sentido a la libertad. En un mundo fragmentado, la familia se convierte en el acto más revolucionario."
+        },
+        "pillar3": {
+          "title": "Bitcoin",
+          "desc": "Es la síntesis entre ambos mundos: la energía humana puesta al servicio de la verdad divina. Mientras los Estados imprimen promesas, Bitcoin imprime realidad. Mientras los gobiernos manipulan, Bitcoin recompensa el trabajo honesto."
+        }
+      },
+      "estado": {
+        "title": "IV. Más allá del Estado y la Patria",
+        "content": "La Era del Consenso no busca destruir naciones ni tradiciones; busca trascenderlas. El patriotismo moderno —basado en fronteras y antagonismos— es una nostalgia del siglo pasado. Nuestro patriotismo es espiritual: se basa en la defensa de la verdad, de la energía y del mérito. Donde haya hombres y mujeres que minen, trabajen, creen y compartan con honestidad, ahí hay una patria. La bandera ya no es un color: es un bloque, un consenso, un hash."
+      },
+      "corrupcion": {
+        "title": "V. La corrupción como enfermedad, la transparencia como cura",
+        "content": "El mayor enemigo del hombre no es el caos, sino la mentira. Las mentiras que se vuelven sistema, las que corrompen el lenguaje, las que distorsionan el valor. Bitcoin nos devuelve la posibilidad de un orden moral: un universo donde el trabajo tiene peso, la palabra tiene valor y el tiempo no se roba. En La Era del Consenso, el valor no se decreta: se demuestra."
+      },
+      "hombre": {
+        "title": "VI. El hombre energético",
+        "content": "El nuevo ciudadano del consenso no es esclavo del mercado ni súbdito del Estado. Es un productor de energía, un portador de verdad, un constructor del bloque universal. Entiende que cada watt, cada ciclo, cada segundo invertido en minar, crear o servir, es una oración en forma de trabajo. La ética del trabajo se convierte en ética energética: producir valor sin destruir la creación."
+      },
+      "orden": {
+        "title": "VII. Hacia un orden post-ideológico",
+        "content": "Las viejas etiquetas —izquierda, derecha, liberal, conservador— se vuelven obsoletas frente a este nuevo paradigma. El consenso no tiene color político: tiene frecuencia. La nueva frontera no divide a ricos y pobres, sino a quienes comprenden la energía de quienes aún viven en la ilusión del control. Es el paso de la obediencia ciega al entendimiento compartido. Del discurso a la verificación."
+      },
+      "tarea": {
+        "title": "VIII. La tarea moral de nuestra generación",
+        "content": "Cada época tiene su deber. A nosotros nos toca reconstruir la confianza entre los hombres. Eso no se logra con promesas, sino con ejemplos. No se logra con votos, sino con bloques. Nuestra misión no es tomar el poder, sino demostrar que el poder puede prescindir de nosotros. Seremos la generación que devolvió la espiritualidad a la tecnología y la verdad al trabajo."
+      },
+      "jardin": {
+        "title": "IX. Epílogo: El Jardín del Consenso",
+        "content": "Creemos que la historia no termina en el conflicto, sino en la cooperación. Así como quien cuida su jardín atrae mariposas, quien cuida su alma y su energía atraerá abundancia. No necesitamos conquistar el mundo: basta con encender una luz que no pueda apagarse. Bitcoin fue esa chispa. La Era del Consenso será el fuego."
+      },
+      "cta": {
+        "title": "¿Listo para unirte?",
+        "subtitle": "Este manifiesto no es solo palabras. Es una invitación a construir el futuro junto a otros que comparten esta visión. Únete a la comunidad Bitcoineanos y sé parte de la Era del Consenso.",
+        "button1": "Únete Ahora",
+        "button2": "Ver Comunidad"
+      }
+    }
   }
   

@@ -1,13 +1,8 @@
 // import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
-import { CardsSection } from "@/components/cards-section"
-import { About } from "@/components/about"
-import { Testimonial } from "@/components/testimonials"
-import { StatsSection } from "@/components/stats-section"
+import { Manifesto } from "@/components/manifesto"
 import { LeadFunnel } from "@/components/lead-funnel"
-import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
-import { Specialists } from "@/components/specialists"
 
 export default function Home() {
   return (
@@ -15,13 +10,8 @@ export default function Home() {
       {/* <Navbar /> */}
       
       <Hero />
-      <About/>
-      <Specialists />
-      <CardsSection />
-      <StatsSection />
-      <Testimonial/>
+      <Manifesto />
       <LeadFunnel />
-      <CTASection />
       <Footer/> 
       
     </main>

@@ -70,5 +70,64 @@
   "specialists_mindset_title": "Bitcoinean Mindset",
   "specialists_mindset_desc": "Discipline, savings, skin in the game and long-term habits.",
   "specialists_mentorship_title": "1:1 Mentorship",
-  "specialists_mentorship_desc": "Personalized guidance for your Bitcoin journey, business or career."
+  "specialists_mentorship_desc": "Personalized guidance for your Bitcoin journey, business or career.",
+  "manifesto": {
+    "title": "Manifesto of the Age of Consensus",
+    "subtitle": "For new members of the Bitcoineanos community",
+    "badge": "The Age of Consensus",
+    "fin": {
+      "title": "I. The End of Old Certainties",
+      "content": "For centuries, men have organized their world under structures that are now crumbling. Kingdoms, parties, ideologies, and homelands promised justice and prosperity, but ended up reproducing the same cycle of power, corruption, and oblivion. Material progress was not enough to fill the moral void, and promises of freedom became systems of surveillance and dependence. Thus we arrived at the 21st century: a world saturated with information, but hungry for truth. In the midst of that noise, a new signal was born. Bitcoin was its name."
+    },
+    "nacimiento": {
+      "title": "II. The Birth of the Incorruptible Order",
+      "content": "Bitcoin is not just a currency or an alternative financial system: it is the first human agreement that does not need a master to sustain itself. For the first time, trust ceased to be vertical and became horizontal. Truth no longer depended on the word of men and came to rest on the immutability of code. Consensus became the new form of sovereignty."
+    },
+    "dios": {
+      "title": "III. God, Family, Bitcoin",
+      "content": "From this questioning arises The Age of Consensus, a current that does not deny the sacred or the human, but reconciles them.",
+      "pillar1": {
+        "title": "God",
+        "desc": "Represents the principle and natural order of the universe. We believe that energy, reason, and consciousness are expressions of a divine will that manifests through human creation."
+      },
+      "pillar2": {
+        "title": "The Family",
+        "desc": "It is the cell of that order. It is where we learn trust, responsibility, and love that gives meaning to freedom. In a fragmented world, the family becomes the most revolutionary act."
+      },
+      "pillar3": {
+        "title": "Bitcoin",
+        "desc": "It is the synthesis between both worlds: human energy put at the service of divine truth. While States print promises, Bitcoin prints reality. While governments manipulate, Bitcoin rewards honest work."
+      }
+    },
+    "estado": {
+      "title": "IV. Beyond State and Homeland",
+      "content": "The Age of Consensus does not seek to destroy nations or traditions; it seeks to transcend them. Modern patriotism—based on borders and antagonisms—is a nostalgia of the past century. Our patriotism is spiritual: it is based on the defense of truth, energy, and merit. Wherever there are men and women who mine, work, create, and share with honesty, there is a homeland. The flag is no longer a color: it is a block, a consensus, a hash."
+    },
+    "corrupcion": {
+      "title": "V. Corruption as Disease, Transparency as Cure",
+      "content": "Man's greatest enemy is not chaos, but lies. The lies that become system, those that corrupt language, those that distort value. Bitcoin returns to us the possibility of a moral order: a universe where work has weight, words have value, and time is not stolen. In The Age of Consensus, value is not decreed: it is demonstrated."
+    },
+    "hombre": {
+      "title": "VI. The Energetic Man",
+      "content": "The new citizen of consensus is neither a slave to the market nor a subject of the State. He is a producer of energy, a bearer of truth, a builder of the universal block. He understands that every watt, every cycle, every second invested in mining, creating, or serving, is a prayer in the form of work. The ethics of work becomes energy ethics: producing value without destroying creation."
+    },
+    "orden": {
+      "title": "VII. Toward a Post-Ideological Order",
+      "content": "The old labels—left, right, liberal, conservative—become obsolete in the face of this new paradigm. Consensus has no political color: it has frequency. The new frontier does not divide rich and poor, but those who understand energy from those who still live in the illusion of control. It is the step from blind obedience to shared understanding. From discourse to verification."
+    },
+    "tarea": {
+      "title": "VIII. The Moral Task of Our Generation",
+      "content": "Each era has its duty. Ours is to rebuild trust among men. This is not achieved with promises, but with examples. It is not achieved with votes, but with blocks. Our mission is not to take power, but to demonstrate that power can do without us. We will be the generation that returned spirituality to technology and truth to work."
+    },
+    "jardin": {
+      "title": "IX. Epilogue: The Garden of Consensus",
+      "content": "We believe that history does not end in conflict, but in cooperation. Just as whoever tends their garden attracts butterflies, whoever tends their soul and energy will attract abundance. We do not need to conquer the world: it is enough to light a light that cannot be extinguished. Bitcoin was that spark. The Age of Consensus will be the fire."
+    },
+    "cta": {
+      "title": "Ready to join?",
+      "subtitle": "This manifesto is not just words. It is an invitation to build the future together with others who share this vision. Join the Bitcoineanos community and be part of the Age of Consensus.",
+      "button1": "Join Now",
+      "button2": "View Community"
+    }
+  }
 }
