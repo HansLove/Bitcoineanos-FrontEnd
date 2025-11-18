@@ -37,10 +37,10 @@ export function Specialists() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-white">
-                    {t(`specialists_${key}_title` as any)}
+                    {t(`specialists_${key}_title` as Parameters<typeof t>[0])}
                   </h3>
                   <p className="text-gray-300 mt-1">
-                    {t(`specialists_${key}_desc` as any)}
+                    {t(`specialists_${key}_desc` as Parameters<typeof t>[0])}
                   </p>
                   <button
                     onClick={open}

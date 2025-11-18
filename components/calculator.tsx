@@ -26,7 +26,7 @@ function Calculator() {
           mxn: data.bitcoin.mxn,
         });
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Error fetching exchange rates. Please try again later.');
         setLoading(false);
       }

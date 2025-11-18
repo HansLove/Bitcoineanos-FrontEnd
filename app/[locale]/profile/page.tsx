@@ -4,7 +4,7 @@ import KPI from "@/components/KPI";
 import Rank from "@/components/rank";
 import { BiInfoCircle } from "react-icons/bi";
 
-export default function Profile({ params }: { params: { locale: string } }) {
+export default function Profile() {
     return (
         <div className="h-full w-full bg-gradient-to-bl from-[#1d243a] via-[#161a2c] to-[#0b0d19] pt-10">
             <div className=" max-w-screen-2xl mx-auto md:p-10 p-6 mt-2 ">

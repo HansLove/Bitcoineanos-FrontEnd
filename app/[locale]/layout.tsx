@@ -4,6 +4,7 @@ import "./globals.css";
 import { locales, defaultLocale, type Locale } from "../../i18n";
 import Providers from "./providers";
 import Head from "next/head";
+import Script from "next/script";
 import ClientLayout from "@/components/ClientLayout"; // Importamos el nuevo componente
 import { Toaster } from "react-hot-toast"; // Importamos el sistema de notificaciones
 
@@ -47,7 +48,10 @@ export default async function RootLayout({
           <ClientLayout>{children}</ClientLayout>
           
         </Providers>
-        <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+        <Script
+          src="https://www.cryptohopper.com/widgets/js/script"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
